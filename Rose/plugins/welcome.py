@@ -194,7 +194,7 @@ my news channel @Prime_botz.
                     """,
                     reply_markup=InlineKeyboardMarkup(
             [
-                InlineKeyboardButton("quick start guide", url="http://t.me/szrosebot?start=help"),
+                InlineKeyboardButton("ǫᴜɪᴄᴋ sᴛᴀʀᴛ ɢᴜɪᴅᴇ", url="http://t.me/PrimeXManageBot?start=help"),
             ]))
                 await app.send_message(
                 chat_id=LOG_GROUP_ID,
