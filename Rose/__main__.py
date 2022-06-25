@@ -87,31 +87,31 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text=" ➕ Add Me To Your Group ➕ ",
+                text=" ➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕ ",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
         [
            InlineKeyboardButton(
-                text=" ℹ️ About", callback_data="_about"
+                text=" ℹ️ ᴀʙᴏᴜᴛ", callback_data="_about"
             ),
             InlineKeyboardButton(
-                text="🌍 languages ", callback_data="_langs"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="📮 How To Use Me", callback_data="bot_commands"
+                text="🌍 ʟᴀɴɢᴜᴀɢᴇs ", callback_data="_langs"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🌐 My Website",
-                url=f"https://szrosebot.ml",
+                text="📮 ʜᴇʟᴘ", callback_data="bot_commands"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="💠 ᴜᴘᴅᴀᴛᴇs",
+                url=f"https://t.me/Prime_BotZ",
             ),
             InlineKeyboardButton(
-                text="🔰News Channel",
-                url=f"https://t.me/szroseupdates",
+                text="🔰 ɴᴇᴡs ᴄʜᴀɴɴᴇʟ",
+                url=f"https://t.me/Prime_Botz",
             )
         ],
     ]
@@ -186,7 +186,7 @@ async def start(client, message: Message, _):
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
 ⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
+👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @I_m_Madhan
 """,
             reply_markup=home_keyboard_pm,
         )
@@ -278,7 +278,7 @@ You Protect Your Groups & Suit For All Your Needs.
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
  ⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
+👨‍💻𝙳ᴇᴠᴇʟᴏᴘᴇʀ : @supunma
 """,
             disable_web_page_preview=True,
             reply_markup=home_keyboard_pm)
@@ -293,7 +293,7 @@ async def help_parser(name, keyboard=None):
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
 If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
+have a look at my [Docs](https://t.me/Prime_Botz/), or head to @Prime_botZ.
 **All commands can be used with the following: / **""",
         keyboard,
     )
@@ -335,7 +335,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma"
+            + "\n👨‍💻𝙳ᴇᴠᴇʟᴏᴘᴇʀ : @I_m_Madhan"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
