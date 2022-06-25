@@ -8,27 +8,22 @@ fbuttons = InlineKeyboardMarkup(
         [
         [
             InlineKeyboardButton(
-                text="👥Support Group", url="https://t.me/szrosesupport"
+                text="ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Prime_BotZ"
             ),
             InlineKeyboardButton(
-                text="👤News Channel", url="https://t.me/Theszrosebot"
+                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/TamilPrime_LinkZz"
             )
         ], 
         [
             InlineKeyboardButton(
-                text="⚒ Source Code", url="https://github.com/szsupunma/sz-rosebot"
+                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/I_m_madhan"
             ),
             InlineKeyboardButton(
-                text="📓 Documentation", url="https://szsupunma.gitbook.io/rose-bot"
+                text="ɪɴꜰᴏ", url="https://t.me/Prime_BotZ"
             )
         ], 
         [
-            InlineKeyboardButton(
-                text="🖥 How To Deploy Me", url="https://szsupunma.gitbook.io/rose-bot"
-            )
-        ], 
-        [
-            InlineKeyboardButton("« Back", callback_data='startcq')
+            InlineKeyboardButton("« ʙᴀᴄᴋ", callback_data='startcq')
         ]
         ]
 )
@@ -37,7 +32,7 @@ keyboard =InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="🇱🇷 English", callback_data="languages_en"
+                text="🇱🇷 ᴇɴɢʟɪsʜ", callback_data="languages_en"
             ),
             InlineKeyboardButton(
                 text="🇱🇰 සිංහල", callback_data="languages_si"
@@ -48,7 +43,7 @@ keyboard =InlineKeyboardMarkup(
                 text="🇮🇳 हिन्दी", callback_data="languages_hi"
             ),
             InlineKeyboardButton(
-                text="🇮🇹 Italiano", callback_data="languages_it"
+                text="🇮🇹 ɪᴛᴀʟɪᴀɴᴏ", callback_data="languages_it"
             )
         ],
         [
@@ -56,7 +51,7 @@ keyboard =InlineKeyboardMarkup(
                 text="🇮🇳 తెలుగు", callback_data="languages_ta"
             ),
             InlineKeyboardButton(
-                text="🇮🇩 Indonesia", callback_data="languages_id"
+                text="🇮🇩 ɪɴᴅᴏɴᴇsɪᴀ", callback_data="languages_id"
             ),
         ],
         [
@@ -69,14 +64,14 @@ keyboard =InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="🇲🇼 chichewa", callback_data="languages_ny"
+                text="🇲🇼 ᴄʜɪᴄʜᴇᴡᴀ", callback_data="languages_ny"
             ), 
             InlineKeyboardButton(
-                text="🇩🇪 german", callback_data="languages_ge"
+                text="🇩🇪 ɢᴇʀᴍᴀɴ", callback_data="languages_ge"
             ), 
         ], 
         [  
-            InlineKeyboardButton("« Back", callback_data='startcq')
+            InlineKeyboardButton("« ʙᴀᴄᴋ", callback_data='startcq')
         ]
     ]
 )
