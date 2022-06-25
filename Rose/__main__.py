@@ -278,7 +278,7 @@ You Protect Your Groups & Suit For All Your Needs.
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
  ⚒ Send Me /help For Get Commands. 
-👨‍💻𝙳ᴇᴠᴇʟᴏᴘᴇʀ : @supunma
+👨‍💻𝙳ᴇᴠᴇʟᴏᴘᴇʀ : @I_m_Madhan
 """,
             disable_web_page_preview=True,
             reply_markup=home_keyboard_pm)
