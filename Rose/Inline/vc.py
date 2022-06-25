@@ -141,18 +141,13 @@ async def commands_callbacc(_, CallbackQuery):
 supunmasc = """
 We was added **Multi Assistant Mode** for High Number of Chats.
 
-👮‍♀️ **OFFICIAL Assistants**:-
-• Assistant 1️⃣ :- @vcpalyassistant
-• Assistant 2️⃣ :- @vcpalyassistant1
-• Assistant 3️⃣ :- @vcpalyassistant2
-• Assistant 4️⃣ :- @vcpalyassistant3
-• Assistant 5️⃣ :- @vcpalyassistant4
+👮‍♀️ **『||ᴘʀɪᴍᴇ•✘•ʙᴏᴛs||』**:-
+• ᴀssɪsᴛᴀɴᴛ 1️⃣ :- 
+• ᴀssɪsᴛᴀɴᴛ 2️⃣ :- 
+• ᴀssɪsᴛᴀɴᴛ 3️⃣ :- 
+• ᴀssɪsᴛᴀɴᴛ 4️⃣ :- 
+• ᴀssɪsᴛᴀɴᴛ 5️⃣ :- 
 
-**Credits** - 
--「🇮🇳」°『||ᴀᴅ•✘•ᴍᴜꜱɪᴄ||』
-- @not_just_Nikhil
-👨‍💻 - Please Don't add all assistant to your group use 1
-And also we remove assistant monthly in all groups.
 """
 @app.on_callback_query(filters.regex("_aci"))
 async def commands_callbacc(_, CallbackQuery):
@@ -167,7 +162,7 @@ async def commands_callbacc(_, CallbackQuery):
     
 close = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('« Back', callback_data='bot_commands')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='bot_commands')
         ]], 
 )
 
@@ -176,31 +171,31 @@ asuttons = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton
                 (
-                    "Admin Commands", callback_data="_adc"
+                    "ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs", callback_data="_adc"
                 ),            
             InlineKeyboardButton
                 (
-                    "Bot Commands", callback_data="_bcd"
+                    "ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs", callback_data="_bcd"
                 ) 
         ],
         [
             InlineKeyboardButton
                 (
-                    "Extra commands", callback_data="_ecd"
+                    "ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅs", callback_data="_ecd"
                 ),            
             InlineKeyboardButton
                 (
-                    "Play Commands", callback_data="_pcd"
+                    "ᴘʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs", callback_data="_pcd"
                 )  
         ], 
         [
             InlineKeyboardButton
                 (
-                    "Assistant Info", callback_data="_aci"
+                    "ᴀssɪsᴛᴀɴᴛ ɪɴꜰᴏ", callback_data="_aci"
                 )
         ],
         [
-            InlineKeyboardButton('« Back', callback_data='bot_commands')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='bot_commands')
         ], 
     ]
 )
