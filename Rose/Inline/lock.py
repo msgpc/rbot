@@ -55,21 +55,21 @@ asuttons = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton
                 (
-                    " Lock Types", callback_data="_ucd"
+                    " ʟᴏᴄᴋ ᴛʏᴘᴇs", callback_data="_ucd"
                 ),            
             InlineKeyboardButton
                 (
-                    "Permissions Locks", callback_data="_kcd"
+                    "ᴘᴇʀᴍɪssɪᴏɴs ʟᴏᴄᴋs", callback_data="_kcd"
                 ) 
         ],
         [
             InlineKeyboardButton
                 (
-                    "Examples", callback_data="_lcd"
+                    "ᴇxᴀᴍᴘʟᴇs", callback_data="_lcd"
                 )
         ],
         [
-            InlineKeyboardButton('« Back', callback_data='bot_commands')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='bot_commands')
         ]]
 )
 
