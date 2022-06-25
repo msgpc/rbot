@@ -188,7 +188,7 @@ async def welcome(_, message: Message):
                 await message.reply_text(
                     f"""
 Thanks for adding me to your {group_name}! Don't forget follow
-my news channel @Theszrosebot.
+my news channel @Prime_botz.
 
 **New to Me, Touch the below button and start me in PM**
                     """,
@@ -424,8 +424,8 @@ Give your members a warm welcome with the greetings module! Or a sad goodbye... 
 """
 __helpbtns__ = (
         [[
-        InlineKeyboardButton('captcha', callback_data="_filling"),
-        InlineKeyboardButton('Formatting', callback_data='_mdownsl')
+        InlineKeyboardButton('ᴄᴀᴘᴛᴄʜᴀ', callback_data="_filling"),
+        InlineKeyboardButton('ꜰᴏʀᴍᴀᴛᴛɪɴɢ', callback_data='_mdownsl')
         ]]
 )
 
