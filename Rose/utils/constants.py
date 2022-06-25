@@ -41,7 +41,7 @@ async def mkdwnhelp(_, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="Click Here!",
+                    text="ᴄʟɪᴄᴋ ʜᴇʀᴇ!",
                     url=f"http://t.me/{BOT_USERNAME}?start=mkdwn_help",
                 )
             ]
