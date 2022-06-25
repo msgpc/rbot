@@ -414,10 +414,10 @@ Filters are case insensitive; every time someone says your trigger words, Rose w
 """
 __helpbtns__ = (
         [[
-        InlineKeyboardButton('Markdown ', callback_data="_mdown"),
-        InlineKeyboardButton('Fillings', callback_data='_fillings')
+        InlineKeyboardButton('ᴍᴀʀᴋᴅᴏᴡɴ ', callback_data="_mdown"),
+        InlineKeyboardButton('ꜰɪʟʟɪɴɢs', callback_data='_fillings')
         ],
         [
-        InlineKeyboardButton('Random Filters', callback_data="_random")
+        InlineKeyboardButton('ʀᴀɴᴅᴏᴍ ꜰɪʟᴛᴇʀs', callback_data="_random")
         ]]
 )
