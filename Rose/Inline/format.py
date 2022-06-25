@@ -11,13 +11,13 @@ options to make your messages more expressive. Take a look!
 
 fbuttons = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Markdown', callback_data="_mdown"),
-        InlineKeyboardButton('Fillings', callback_data='_fillings')
+        InlineKeyboardButton('ᴍᴀʀᴋᴅᴏᴡɴ', callback_data="_mdown"),
+        InlineKeyboardButton('ꜰɪʟʟɪɴɢs', callback_data='_fillings')
         ],
         [
-        InlineKeyboardButton('Random Content', callback_data="_random")
+        InlineKeyboardButton('ʀᴀɴᴅᴏᴍ ᴄᴏɴᴛᴇɴᴛ', callback_data="_random")
         ],
-        [InlineKeyboardButton('« Back', callback_data='bot_commands')
+        [InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='bot_commands')
         ]]
   
 )
@@ -34,7 +34,7 @@ async def commands_callbacc(_, CallbackQuery):
 
 close = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('« Back', callback_data='_mdownsl')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='_mdownsl')
         ]], 
 )
 
@@ -50,7 +50,7 @@ and much more.Go ahead and experiment!
 - <code>--underline--</code>: This will show as <u>underline</u> text.
 - <code>`code words`</code>: This will show as <code>code</code> text.
 - <code>||spoiler||</code>: This will show as <spoiler>Spoiler</spoiler> text.
-- <code>[hyperlink](google.com)</code>: This will create a <a href='http://www.supun.ml/'>hyperlink</a> text.
+- <code>[hyperlink](google.com)</code>: This will create a <a href='http://www.prime_botz/'>hyperlink</a> text.
 If you would like to send buttons on the same row, use the :same formatting. EG:
 
 <code>
