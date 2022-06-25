@@ -71,7 +71,7 @@ async def commands_callbacc(_, CallbackQuery):
 
 close = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('« Back', callback_data='_bvk')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='_bvk')
         ]], 
 )
 
@@ -80,18 +80,18 @@ asuttons = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton
                 (
-                    "Anti-service", callback_data="_anssx"
+                    "ᴀɴᴛɪ-sᴇʀᴠɪᴄᴇ", callback_data="_anssx"
                 ),           
             InlineKeyboardButton
                 (
-                    "Anti-language", callback_data="_anl"
+                    "ᴀɴᴛɪ-ʟᴀɴɢᴜᴀɢᴇ", callback_data="_anl"
                 )
         ],
         [
-            InlineKeyboardButton('Anti-Flood', callback_data='_fld')
+            InlineKeyboardButton('ᴀɴᴛɪ-ꜰʟᴏᴏᴅ', callback_data='_fld')
         ], 
         [
-            InlineKeyboardButton('« Back', callback_data='bot_commands')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='bot_commands')
         ], 
     ]
 )
